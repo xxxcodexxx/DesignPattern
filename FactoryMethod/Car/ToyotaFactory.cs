@@ -2,9 +2,6 @@
 {
     public class ToyotaFactory : CarFactory
     {
-        public override ICar CarFactoryMethod()
-        {
-           return new Toyota();
-        }
+        public override ICar CarFactoryMethod() => new Toyota();
     }
 }

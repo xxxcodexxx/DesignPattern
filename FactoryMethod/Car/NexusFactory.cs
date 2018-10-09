@@ -2,9 +2,6 @@
 {
     public class NexusFactory : CarFactory
     {
-        public override ICar CarFactoryMethod()
-        {
-            return new Nexus();
-        }
+        public override ICar CarFactoryMethod() => new Nexus();
     }
 }

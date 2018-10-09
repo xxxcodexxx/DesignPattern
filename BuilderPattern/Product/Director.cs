@@ -8,10 +8,7 @@ namespace BuilderPattern.Product
 
         public Director(Builder builder) => this.builder = builder;
 
-        public void buildMinimalViableProduct()
-        {
-            builder.BuildPartA();
-        }
+        public void buildMinimalViableProduct() => builder.BuildPartA();
 
         public void buildFullFeaturedProduct()
         {

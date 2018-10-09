@@ -2,9 +2,6 @@
 {
     public class Nexus : ICar
     {
-        public string View()
-        {
-            return @"Nexus";
-        }
+        public string View() => @"Nexus";
     }
 }

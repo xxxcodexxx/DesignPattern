@@ -8,9 +8,6 @@ namespace FactoryMethod.Car
 {
     public class Honda : ICar
     {
-        public string View()
-        {
-            return @"Honda";
-        }
+        public string View() => @"Honda";
     }
 }

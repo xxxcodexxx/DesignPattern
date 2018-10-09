@@ -12,9 +12,6 @@ namespace FactoryMethod.Car
             Console.WriteLine(@"Boss: Pls, Show me Car of Toyota!");
             ViewCar(new ToyotaFactory());
         }
-        public void ViewCar(CarFactory carFactory)
-        {
-            Console.WriteLine(carFactory.SomeViews());
-        }
+        public void ViewCar(CarFactory carFactory) => Console.WriteLine(carFactory.SomeViews());
     }
 }

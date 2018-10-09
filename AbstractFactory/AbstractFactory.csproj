@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Product\Client.cs" />
-    <Compile Include="Product\ConcreteFactory1.cs" />
+    <Compile Include="Product\ConcreteFactory.cs" />
     <Compile Include="Product\ConcreteProductA1.cs" />
     <Compile Include="Product\ConcreteProductB1.cs" />
     <Compile Include="Product\IAbstractProductB.cs" />

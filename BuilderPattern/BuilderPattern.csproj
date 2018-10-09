@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2B9DFDDD-4786-45F6-BD8D-4E2D6B448F9B}</ProjectGuid>
+    <ProjectGuid>{EDA44FB9-317F-4194-8C4B-7317B349E235}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactory</RootNamespace>
-    <AssemblyName>AbstractFactory</AssemblyName>
+    <RootNamespace>BuilderPattern</RootNamespace>
+    <AssemblyName>BuilderPattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Product\Builder.cs" />
     <Compile Include="Product\Client.cs" />
-    <Compile Include="Product\ConcreteFactory1.cs" />
-    <Compile Include="Product\ConcreteProductA1.cs" />
-    <Compile Include="Product\ConcreteProductB1.cs" />
-    <Compile Include="Product\IAbstractProductB.cs" />
-    <Compile Include="Product\IAbstractProductA.cs" />
-    <Compile Include="Product\IAbstractFactory.cs" />
+    <Compile Include="Product\ConcreteBuilder.cs" />
+    <Compile Include="Product\Director.cs" />
+    <Compile Include="Product\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

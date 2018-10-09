@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactory
+namespace AbstractFactory.Product
 {
     public class Client
     {
@@ -12,6 +12,7 @@ namespace AbstractFactory
 
             Console.WriteLine(@"Client: Testing the same client code with the second factory type...");
             ClientMethod(new ConcreteFactory2());
+            Console.WriteLine();
         }
 
         public void ClientMethod(IAbstractFactory factory)

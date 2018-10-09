@@ -1,8 +1,8 @@
 ﻿namespace Singleton
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             new Client().ClientCode();
             System.Console.ReadLine();

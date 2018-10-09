@@ -3,16 +3,15 @@ using System;
 
 namespace BuilderPattern
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
             Builder builder = new ConcreteBuilder();
             Director director = new Director(builder);
 
             Client client = new Client();
             client.ClientCode(director, builder);
-            Console.ReadLine();
         }
     }
 }

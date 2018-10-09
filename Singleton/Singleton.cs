@@ -13,7 +13,9 @@
             lock (obj)
             {
                 if (_instance == null)
+                {
                     _instance = new Singleton();
+                }
             }
             return _instance;
         }

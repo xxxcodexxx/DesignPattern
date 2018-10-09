@@ -12,9 +12,6 @@ namespace Prototype.Prototype
 
         public ComponentWithBackReference CircularReference { get; set; }
 
-        public Prototype Clone()
-        {
-            return CircularReference.Prototype;
-        }
+        public Prototype Clone() => CircularReference.Prototype;
     }
 }

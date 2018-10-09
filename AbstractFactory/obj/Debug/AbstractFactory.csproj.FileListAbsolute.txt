@@ -1,0 +1,7 @@
+D:\SeriesDesignPattern\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+D:\SeriesDesignPattern\AbstractFactory\bin\Debug\AbstractFactory.exe
+D:\SeriesDesignPattern\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\SeriesDesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csprojAssemblyReference.cache
+D:\SeriesDesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
+D:\SeriesDesignPattern\AbstractFactory\obj\Debug\AbstractFactory.exe
+D:\SeriesDesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb

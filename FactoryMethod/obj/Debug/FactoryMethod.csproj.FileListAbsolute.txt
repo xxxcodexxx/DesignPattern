@@ -1,0 +1,7 @@
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\bin\Debug\FactoryMethod.exe.config
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\bin\Debug\FactoryMethod.exe
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\bin\Debug\FactoryMethod.pdb
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\obj\Debug\FactoryMethod.csprojAssemblyReference.cache
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\obj\Debug\FactoryMethod.csproj.CoreCompileInputs.cache
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\obj\Debug\FactoryMethod.exe
+D:\SeriesDesignPattern\DesignPattern.git\FactoryMethod\obj\Debug\FactoryMethod.pdb

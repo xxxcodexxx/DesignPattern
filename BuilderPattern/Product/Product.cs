@@ -11,9 +11,9 @@ namespace BuilderPattern.Product
             parts.Add(part);
         }
 
-        public void AddRange(List<object> lspart)
+        public void AddRange(List<object> lsparts)
         {
-            parts.AddRange(lspart);
+            parts.AddRange(lsparts);
         }
 
         public string ListParts()
